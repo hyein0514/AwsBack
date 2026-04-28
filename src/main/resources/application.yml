@@ -16,3 +16,9 @@ spring:
     properties:
       hibernate:
         format_sql: true
+
+cloud:
+  aws:
+    region: ap-southeast-2
+    s3:
+      bucket: ${S3_BUCKET_NAME:awslab2026-bucket-test}
